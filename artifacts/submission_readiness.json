@@ -1,0 +1,22 @@
+{
+  "ready": true,
+  "checks": {
+    "t1_100_of_100": true,
+    "t2_50_of_50": true,
+    "t1_collision_free": true,
+    "t2_collision_free": true,
+    "inference_matrix_complete": true,
+    "static_int8_hybrid_50pct_10_of_10": true,
+    "multimodal_episode_succeeded": true,
+    "vlm_not_overtrusted": true,
+    "t1_video_present": true,
+    "t2_video_present": true,
+    "submission_reel_present": true
+  },
+  "failures": [],
+  "required_disclosures": [
+    "NPU unavailable and unmeasured on this host",
+    "pure BC is not the submitted control mode",
+    "SmolVLM is proposal-only after failed grounding stress tests"
+  ]
+}

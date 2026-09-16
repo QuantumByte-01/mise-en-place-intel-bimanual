@@ -1,0 +1,12 @@
+{
+  "source": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\expert_demos.npz",
+  "output": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\training_data.npz",
+  "samples": 183141,
+  "observation_dim": 42,
+  "action_dim": 12,
+  "augment_copies": 2,
+  "hf_rows": 0,
+  "excluded_failed_episodes": [
+    38
+  ]
+}

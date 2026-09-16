@@ -1,0 +1,21 @@
+{
+  "seed": 100,
+  "mode": "hybrid",
+  "runtime": "int8",
+  "blend": 0.5,
+  "score": {
+    "success": true,
+    "per_object": {
+      "fork": true,
+      "spoon": true
+    },
+    "errors": {
+      "fork": 0.004390965859521981,
+      "spoon": 0.004411001477700393
+    },
+    "steps": 513,
+    "sim_time": 10.700000000000243
+  },
+  "video": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\learned_hybrid_int8_seed100.mp4",
+  "keyframes": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\learned_hybrid_int8_seed100_keyframes"
+}

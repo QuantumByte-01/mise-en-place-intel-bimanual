@@ -1,0 +1,79 @@
+{
+  "model": "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+  "binary_accuracy": 0.5,
+  "results": [
+    {
+      "object": "plate",
+      "case": "all_visible",
+      "expected": "YES",
+      "raw_output": "No.",
+      "answer": "NO",
+      "correct": false,
+      "inference_seconds": 26.962750299979234
+    },
+    {
+      "object": "plate",
+      "case": "without_plate",
+      "expected": "NO",
+      "raw_output": "No.",
+      "answer": "NO",
+      "correct": true,
+      "inference_seconds": 24.43141230000765
+    },
+    {
+      "object": "fork",
+      "case": "all_visible",
+      "expected": "YES",
+      "raw_output": "No.",
+      "answer": "NO",
+      "correct": false,
+      "inference_seconds": 23.374789699999383
+    },
+    {
+      "object": "fork",
+      "case": "without_fork",
+      "expected": "NO",
+      "raw_output": "No.",
+      "answer": "NO",
+      "correct": true,
+      "inference_seconds": 25.021618099999614
+    },
+    {
+      "object": "spoon",
+      "case": "all_visible",
+      "expected": "YES",
+      "raw_output": "No.",
+      "answer": "NO",
+      "correct": false,
+      "inference_seconds": 24.62184479998541
+    },
+    {
+      "object": "spoon",
+      "case": "without_spoon",
+      "expected": "NO",
+      "raw_output": "No.",
+      "answer": "NO",
+      "correct": true,
+      "inference_seconds": 23.254543399991235
+    },
+    {
+      "object": "mug",
+      "case": "all_visible",
+      "expected": "YES",
+      "raw_output": "No.",
+      "answer": "NO",
+      "correct": false,
+      "inference_seconds": 24.55722949997289
+    },
+    {
+      "object": "mug",
+      "case": "without_mug",
+      "expected": "NO",
+      "raw_output": "No.",
+      "answer": "NO",
+      "correct": true,
+      "inference_seconds": 24.202298999996856
+    }
+  ],
+  "decision": "do not trust for grounding; retain deterministic perception fallback"
+}

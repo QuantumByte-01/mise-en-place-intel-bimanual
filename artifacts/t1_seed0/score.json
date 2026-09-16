@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "per_object": {
+    "fork": true,
+    "spoon": true
+  },
+  "errors": {
+    "fork": 0.0023236325933240747,
+    "spoon": 0.0068758464251553976
+  },
+  "steps": 513,
+  "sim_time": 10.700000000000243
+}

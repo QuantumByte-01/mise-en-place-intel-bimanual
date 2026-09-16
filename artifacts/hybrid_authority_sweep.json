@@ -1,0 +1,1493 @@
+{
+  "device": "CPU",
+  "episodes_per_setting": 10,
+  "max_residual_rad": 0.15,
+  "gripper_guard": true,
+  "results": {
+    "fp32": {
+      "0.00": {
+        "success_rate": 1.0,
+        "fork_rate": 1.0,
+        "spoon_rate": 1.0,
+        "mean_executed_residual": 0.0,
+        "rows": [
+          {
+            "seed": 100,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.01212107793025881,
+              "spoon": 0.0015824851829423041
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 101,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.005199809486119054,
+              "spoon": 0.0052694781258086935
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 102,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.002752068757505698,
+              "spoon": 0.0019409181113711697
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 103,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.002015048850140184,
+              "spoon": 0.0006679013450034312
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 104,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.004940442720222098,
+              "spoon": 0.0037785182640222527
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 105,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.004009140384758183,
+              "spoon": 0.0017594190638034446
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 106,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.0032465520763362136,
+              "spoon": 0.002336456964562188
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 107,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.001886969285860636,
+              "spoon": 0.00031198854096053415
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 108,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.004353896764783556,
+              "spoon": 0.0015889152684175835
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 109,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.00107572234177526,
+              "spoon": 0.011512224173516515
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          }
+        ]
+      },
+      "0.25": {
+        "success_rate": 1.0,
+        "fork_rate": 1.0,
+        "spoon_rate": 1.0,
+        "mean_executed_residual": 0.005176095978811213,
+        "rows": [
+          {
+            "seed": 100,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.011500805213745517,
+              "spoon": 0.0018918939505253977
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 101,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.008019578596582175,
+              "spoon": 0.0066864304569510145
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 102,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.003589696464535222,
+              "spoon": 0.004660157088282303
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 103,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.0022706106542096064,
+              "spoon": 0.003191935705095203
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 104,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.00344955427933788,
+              "spoon": 0.006313074222234439
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 105,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.00393154758043557,
+              "spoon": 0.005874151878163797
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 106,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.01009020811311896,
+              "spoon": 0.004657598573547804
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 107,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.004484747492094275,
+              "spoon": 0.000847214993894608
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 108,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.001024147004511712,
+              "spoon": 0.0044714696752762425
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 109,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.041968657834077626,
+              "spoon": 0.04274481931480357
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          }
+        ]
+      },
+      "0.50": {
+        "success_rate": 0.8,
+        "fork_rate": 0.9,
+        "spoon_rate": 0.8,
+        "mean_executed_residual": 0.013198138475765295,
+        "rows": [
+          {
+            "seed": 100,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.02249881414212732,
+              "spoon": 0.029931579733688846
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 101,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.009222197539113266,
+              "spoon": 0.006406119761793989
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 102,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.005461224839352493,
+              "spoon": 0.00819227192596288
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 103,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.06238639385774358,
+              "spoon": 0.07209036694278606
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 104,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.0005096607188785296,
+              "spoon": 0.011533497966810103
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 105,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.0010283447021209756,
+              "spoon": 0.01163097959983123
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 106,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.004519357585567769,
+              "spoon": 0.00805088948057024
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 107,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.005545229207908897,
+              "spoon": 0.0021019121697247894
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 108,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.001520909392385014,
+              "spoon": 0.004534430600236806
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 109,
+            "success": false,
+            "per_object": {
+              "fork": true,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.027002946802397718,
+              "spoon": 0.06064914618965622
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          }
+        ]
+      },
+      "0.75": {
+        "success_rate": 0.2,
+        "fork_rate": 0.3,
+        "spoon_rate": 0.5,
+        "mean_executed_residual": 0.04644814563412936,
+        "rows": [
+          {
+            "seed": 100,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.05894736686732448,
+              "spoon": 0.05745348185883876
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 101,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.11210169055118303,
+              "spoon": 0.020107301829777498
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 102,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.062058914377216216,
+              "spoon": 0.0333328245263428
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 103,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.04804254742745333,
+              "spoon": 0.02952416616090284
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 104,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.036316397053058835,
+              "spoon": 0.04050528916927429
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 105,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.08063567082046824,
+              "spoon": 0.13720966047079347
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 106,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.05845153993022254,
+              "spoon": 0.04626060530834969
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 107,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.08088884494750945,
+              "spoon": 0.0501646559967301
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 108,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.040057846017991464,
+              "spoon": 0.02933604386978911
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 109,
+            "success": false,
+            "per_object": {
+              "fork": true,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.01723662908828456,
+              "spoon": 0.05455545903866421
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          }
+        ]
+      },
+      "1.00": {
+        "success_rate": 0.2,
+        "fork_rate": 0.3,
+        "spoon_rate": 0.4,
+        "mean_executed_residual": 0.06162441907878094,
+        "rows": [
+          {
+            "seed": 100,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.05049845557770115,
+              "spoon": 0.06474326001815374
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 101,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.15861023342389907,
+              "spoon": 0.13391400125392458
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 102,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.05653350873481698,
+              "spoon": 0.02956519424086178
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 103,
+            "success": false,
+            "per_object": {
+              "fork": true,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.023670842994211017,
+              "spoon": 0.06679013234953256
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 104,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.04149224170394297,
+              "spoon": 0.01336339392744809
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 105,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.08429067925674096,
+              "spoon": 0.04692473185733117
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 106,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.06436095400277436,
+              "spoon": 0.06254724270050732
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 107,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.08039843337909956,
+              "spoon": 0.023825375144370834
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 108,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.13954906708008732,
+              "spoon": 0.12221735176857569
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 109,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.022450462986194384,
+              "spoon": 0.04064155329820842
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          }
+        ]
+      }
+    },
+    "int8": {
+      "0.00": {
+        "success_rate": 1.0,
+        "fork_rate": 1.0,
+        "spoon_rate": 1.0,
+        "mean_executed_residual": 0.0,
+        "rows": [
+          {
+            "seed": 100,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.01212107793025881,
+              "spoon": 0.0015824851829423041
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 101,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.005199809486119054,
+              "spoon": 0.0052694781258086935
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 102,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.002752068757505698,
+              "spoon": 0.0019409181113711697
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 103,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.002015048850140184,
+              "spoon": 0.0006679013450034312
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 104,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.004940442720222098,
+              "spoon": 0.0037785182640222527
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 105,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.004009140384758183,
+              "spoon": 0.0017594190638034446
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 106,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.0032465520763362136,
+              "spoon": 0.002336456964562188
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 107,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.001886969285860636,
+              "spoon": 0.00031198854096053415
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 108,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.004353896764783556,
+              "spoon": 0.0015889152684175835
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 109,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.00107572234177526,
+              "spoon": 0.011512224173516515
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          }
+        ]
+      },
+      "0.25": {
+        "success_rate": 1.0,
+        "fork_rate": 1.0,
+        "spoon_rate": 1.0,
+        "mean_executed_residual": 0.0030898526978777037,
+        "rows": [
+          {
+            "seed": 100,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.005878345255946327,
+              "spoon": 0.0004299982711793832
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 101,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.004260267461456441,
+              "spoon": 0.006477541314594052
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 102,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.003806718048593935,
+              "spoon": 0.00395099988395346
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 103,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.003140502024193577,
+              "spoon": 0.0030704288150139266
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 104,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.009101829850735824,
+              "spoon": 0.008937488159867231
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 105,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.005990561329858667,
+              "spoon": 0.00455674353132602
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 106,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.0036613432781422975,
+              "spoon": 0.003695657696918919
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 107,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.005820051782968703,
+              "spoon": 0.0025390522947380378
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 108,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.005192973617037444,
+              "spoon": 0.0018866091973544943
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 109,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.001317627622635342,
+              "spoon": 0.0021877747759124454
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          }
+        ]
+      },
+      "0.50": {
+        "success_rate": 1.0,
+        "fork_rate": 1.0,
+        "spoon_rate": 1.0,
+        "mean_executed_residual": 0.01016380080794843,
+        "rows": [
+          {
+            "seed": 100,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.007636127087594349,
+              "spoon": 0.004368461303444343
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 101,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.005069306526425808,
+              "spoon": 0.009658351066862246
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 102,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.005113861348594125,
+              "spoon": 0.006979607873376746
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 103,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.0114337476437236,
+              "spoon": 0.009054357707303852
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 104,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.001414575853530158,
+              "spoon": 0.009568019199418921
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 105,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.03180470787413453,
+              "spoon": 0.007460709058427783
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 106,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.008428670708301516,
+              "spoon": 0.004839992501529289
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 107,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.016479732540981572,
+              "spoon": 0.013352826989035886
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 108,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.006981194620690009,
+              "spoon": 0.0029805001760041263
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 109,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.002900207316988631,
+              "spoon": 0.0054230436957479105
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          }
+        ]
+      },
+      "0.75": {
+        "success_rate": 0.8,
+        "fork_rate": 0.9,
+        "spoon_rate": 0.9,
+        "mean_executed_residual": 0.027779898222036147,
+        "rows": [
+          {
+            "seed": 100,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.0204506667421219,
+              "spoon": 0.0037614022897273923
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 101,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.03083633822858799,
+              "spoon": 0.014661997684965115
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 102,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.018958883099230984,
+              "spoon": 0.012048132483629943
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 103,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.028741746087478936,
+              "spoon": 0.04257615504580622
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 104,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.007392328791300326,
+              "spoon": 0.027916533888929954
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 105,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.01909518359421282,
+              "spoon": 0.009460631528674665
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 106,
+            "success": false,
+            "per_object": {
+              "fork": true,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.03444930953691637,
+              "spoon": 0.04690472472192588
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 107,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.06871613250426488,
+              "spoon": 0.04250525691577331
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 108,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.014393852960358484,
+              "spoon": 0.004953199557380874
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 109,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.0071520842884488945,
+              "spoon": 0.01572236707879711
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          }
+        ]
+      },
+      "1.00": {
+        "success_rate": 0.4,
+        "fork_rate": 0.6,
+        "spoon_rate": 0.5,
+        "mean_executed_residual": 0.058390558698009444,
+        "rows": [
+          {
+            "seed": 100,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.07587392877160569,
+              "spoon": 0.03875614724667445
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 101,
+            "success": false,
+            "per_object": {
+              "fork": true,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.03995413240249152,
+              "spoon": 0.06264122307676165
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 102,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.06920888590209233,
+              "spoon": 0.06632961749912773
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 103,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.012290099960414913,
+              "spoon": 0.0430379341675701
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 104,
+            "success": false,
+            "per_object": {
+              "fork": true,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.019291011610962826,
+              "spoon": 0.05812785856919399
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 105,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.08128626380980689,
+              "spoon": 0.07183730189444894
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 106,
+            "success": false,
+            "per_object": {
+              "fork": false,
+              "spoon": false
+            },
+            "errors": {
+              "fork": 0.06672098972562585,
+              "spoon": 0.0742873725073898
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 107,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.038229131834240405,
+              "spoon": 0.010881122661799275
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 108,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.037517196537913806,
+              "spoon": 0.00813857506656302
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          },
+          {
+            "seed": 109,
+            "success": true,
+            "per_object": {
+              "fork": true,
+              "spoon": true
+            },
+            "errors": {
+              "fork": 0.02045096933538444,
+              "spoon": 0.009253488509930418
+            },
+            "steps": 513,
+            "sim_time": 10.700000000000243
+          }
+        ]
+      }
+    }
+  },
+  "claim": "OpenVINO learned inference runs every step as a bounded residual. The geometric executive guards discrete grasps and is not removed."
+}

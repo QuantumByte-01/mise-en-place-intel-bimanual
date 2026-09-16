@@ -1,0 +1,207 @@
+{
+  "task": "t1",
+  "best_seed": 3,
+  "best": {
+    "task": "t1",
+    "seed": 3,
+    "success": true,
+    "error_sum": 0.0023655086835058185,
+    "frames": 173,
+    "fps": 24,
+    "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed3.mp4",
+    "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed3_start.png",
+    "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed3_final.png",
+    "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed3_mid.png",
+    "score": {
+      "success": true,
+      "per_object": {
+        "fork": true,
+        "spoon": true
+      },
+      "errors": {
+        "fork": 0.001406825143537489,
+        "spoon": 0.0009586835399683293
+      },
+      "steps": 513,
+      "sim_time": 10.700000000000243
+    }
+  },
+  "all": [
+    {
+      "task": "t1",
+      "seed": 0,
+      "success": true,
+      "error_sum": 0.009199479018479471,
+      "frames": 173,
+      "fps": 24,
+      "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed0.mp4",
+      "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed0_start.png",
+      "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed0_final.png",
+      "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed0_mid.png",
+      "score": {
+        "success": true,
+        "per_object": {
+          "fork": true,
+          "spoon": true
+        },
+        "errors": {
+          "fork": 0.0023236325933240747,
+          "spoon": 0.0068758464251553976
+        },
+        "steps": 513,
+        "sim_time": 10.700000000000243
+      }
+    },
+    {
+      "task": "t1",
+      "seed": 3,
+      "success": true,
+      "error_sum": 0.0023655086835058185,
+      "frames": 173,
+      "fps": 24,
+      "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed3.mp4",
+      "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed3_start.png",
+      "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed3_final.png",
+      "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed3_mid.png",
+      "score": {
+        "success": true,
+        "per_object": {
+          "fork": true,
+          "spoon": true
+        },
+        "errors": {
+          "fork": 0.001406825143537489,
+          "spoon": 0.0009586835399683293
+        },
+        "steps": 513,
+        "sim_time": 10.700000000000243
+      }
+    },
+    {
+      "task": "t1",
+      "seed": 5,
+      "success": true,
+      "error_sum": 0.004068211704896229,
+      "frames": 173,
+      "fps": 24,
+      "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed5.mp4",
+      "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed5_start.png",
+      "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed5_final.png",
+      "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed5_mid.png",
+      "score": {
+        "success": true,
+        "per_object": {
+          "fork": true,
+          "spoon": true
+        },
+        "errors": {
+          "fork": 0.0005669721970480272,
+          "spoon": 0.0035012395078482016
+        },
+        "steps": 513,
+        "sim_time": 10.700000000000243
+      }
+    },
+    {
+      "task": "t1",
+      "seed": 7,
+      "success": true,
+      "error_sum": 0.008354552752436514,
+      "frames": 173,
+      "fps": 24,
+      "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed7.mp4",
+      "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed7_start.png",
+      "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed7_final.png",
+      "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed7_mid.png",
+      "score": {
+        "success": true,
+        "per_object": {
+          "fork": true,
+          "spoon": true
+        },
+        "errors": {
+          "fork": 0.004592253986049204,
+          "spoon": 0.0037622987663873085
+        },
+        "steps": 513,
+        "sim_time": 10.700000000000243
+      }
+    },
+    {
+      "task": "t1",
+      "seed": 12,
+      "success": true,
+      "error_sum": 0.014226349186879636,
+      "frames": 173,
+      "fps": 24,
+      "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed12.mp4",
+      "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed12_start.png",
+      "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed12_final.png",
+      "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed12_mid.png",
+      "score": {
+        "success": true,
+        "per_object": {
+          "fork": true,
+          "spoon": true
+        },
+        "errors": {
+          "fork": 0.009517806059446444,
+          "spoon": 0.0047085431274331915
+        },
+        "steps": 513,
+        "sim_time": 10.700000000000243
+      }
+    },
+    {
+      "task": "t1",
+      "seed": 42,
+      "success": true,
+      "error_sum": 0.011539867355385133,
+      "frames": 173,
+      "fps": 24,
+      "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed42.mp4",
+      "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed42_start.png",
+      "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed42_final.png",
+      "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed42_mid.png",
+      "score": {
+        "success": true,
+        "per_object": {
+          "fork": true,
+          "spoon": true
+        },
+        "errors": {
+          "fork": 0.005739009425881476,
+          "spoon": 0.005800857929503658
+        },
+        "steps": 513,
+        "sim_time": 10.700000000000243
+      }
+    },
+    {
+      "task": "t1",
+      "seed": 100,
+      "success": true,
+      "error_sum": 0.013705049019029943,
+      "frames": 173,
+      "fps": 24,
+      "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed100.mp4",
+      "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed100_start.png",
+      "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed100_final.png",
+      "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t1_seed100_mid.png",
+      "score": {
+        "success": true,
+        "per_object": {
+          "fork": true,
+          "spoon": true
+        },
+        "errors": {
+          "fork": 0.012125204838105075,
+          "spoon": 0.0015798441809248668
+        },
+        "steps": 513,
+        "sim_time": 10.700000000000243
+      }
+    }
+  ],
+  "promoted_to": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_t1_best.mp4"
+}

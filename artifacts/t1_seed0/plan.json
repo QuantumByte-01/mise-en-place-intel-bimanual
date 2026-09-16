@@ -1,0 +1,17 @@
+{
+  "instruction": "Set the table: place the fork and spoon beside the plate.",
+  "subtasks": [
+    {
+      "action": "pick_place",
+      "object": "fork",
+      "arm": "left",
+      "target": "plate_side"
+    },
+    {
+      "action": "pick_place",
+      "object": "spoon",
+      "arm": "right",
+      "target": "plate_side"
+    }
+  ]
+}

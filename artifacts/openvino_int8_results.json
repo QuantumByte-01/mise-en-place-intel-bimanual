@@ -1,0 +1,62 @@
+{
+  "runtime_version": "2026.3.1-22476-759c5a6ab8c-releases/2026/3",
+  "available_devices": [
+    "CPU",
+    "GPU"
+  ],
+  "checkpoint": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\checkpoints\\lora_bc.pt",
+  "calibration_samples": 512,
+  "models": {
+    "onnx": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\checkpoints\\openvino\\lora_bc.onnx",
+    "fp32_ir": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\checkpoints\\openvino\\lora_bc_fp32.xml",
+    "int8_ir": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\checkpoints\\openvino\\lora_bc_int8.xml",
+    "fp32_bytes": 419017,
+    "int8_bytes": 174285
+  },
+  "offline_accuracy": {
+    "fp32_vs_expert_mae": 0.007930890657007694,
+    "int8_vs_expert_mae": 0.028215760365128517,
+    "int8_vs_fp32_mae": 0.022659815847873688,
+    "int8_vs_fp32_max_abs": 0.529712975025177,
+    "coordination_relative_action_mae": 0.020306959748268127
+  },
+  "latency": {
+    "FP32_CPU": {
+      "device": "CPU",
+      "compile_ms": 101.608,
+      "mean_ms": 0.2904,
+      "p50_ms": 0.2559,
+      "p95_ms": 0.5439,
+      "throughput_fps": 3443.2
+    },
+    "FP32_GPU": {
+      "device": "GPU",
+      "compile_ms": 5264.791,
+      "mean_ms": 3.6025,
+      "p50_ms": 3.5002,
+      "p95_ms": 5.2347,
+      "throughput_fps": 277.6
+    },
+    "INT8_CPU": {
+      "device": "CPU",
+      "compile_ms": 226.304,
+      "mean_ms": 0.4569,
+      "p50_ms": 0.4254,
+      "p95_ms": 0.7994,
+      "throughput_fps": 2188.5
+    },
+    "INT8_GPU": {
+      "device": "GPU",
+      "compile_ms": 3895.821,
+      "mean_ms": 2.0706,
+      "p50_ms": 2.0351,
+      "p95_ms": 2.7121,
+      "throughput_fps": 482.9
+    }
+  },
+  "skipped_or_failed": {
+    "FP32_NPU": "device unavailable",
+    "INT8_NPU": "device unavailable"
+  },
+  "hardware_note": "NPU measurements require a Core Ultra machine; this host exposes CPU, GPU."
+}

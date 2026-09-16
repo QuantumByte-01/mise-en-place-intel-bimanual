@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-09-14T02:34:13.331741+00:00",
+  "openvino": {
+    "ok": true,
+    "devices": [
+      "CPU",
+      "GPU"
+    ],
+    "error": null,
+    "versions": {
+      "CPU": "{'CPU': <Version: 2026.3.1-22476-759c5a6ab8c-releases/2026/3 openvino_intel_cpu_plugin>}",
+      "GPU": "{'GPU': <Version: 2026.3.1-22476-759c5a6ab8c-releases/2026/3 Intel GPU plugin>}"
+    }
+  },
+  "latency_table": [
+    {
+      "precision": "FP32",
+      "device": "CPU",
+      "latency_ms": null,
+      "notes": "fill after export"
+    },
+    {
+      "precision": "FP16",
+      "device": "GPU",
+      "latency_ms": null,
+      "notes": "iGPU when available"
+    },
+    {
+      "precision": "INT8",
+      "device": "NPU",
+      "latency_ms": null,
+      "notes": "Core Ultra NPU only"
+    }
+  ],
+  "coordination_collapse": {
+    "metric": "inter_arm_sync_error_ms / relative_pose_err",
+    "status": "stub \u2014 populate when quantized policy exists",
+    "hypothesis": "T2 handoff degrades under INT8 before T1 single-arm success"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "instruction": "Set the table: put the fork left of the plate and spoon right of the plate.",
+  "seed": 1000,
+  "start_image": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\multimodal_episode_start.png",
+  "final_image": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\multimodal_episode_final.png",
+  "vlm": {
+    "model": "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+    "revision": "067788b187b95ebe7b2e040b3e4299e342e5b8fd",
+    "raw": "{\n  \"scene\": {\n    \"plate\": true,\n    \"fork\": true,\n    \"spoon\": true,\n    \"mug\": true\n  },\n  \"subtasks\": [\n    {\n      \"action\": \"pick_place\", \"object\": \"fork\", \"arm\": \"left\", \"target\": \"plate_left\"},\n    {\n      \"action\": \"pick_place\", \"object\": \"spoon\", \"arm\": \"right\", \"target\": \"plate_right\"}\n  ]\n}",
+    "parsed": {
+      "scene": {
+        "plate": true,
+        "fork": true,
+        "spoon": true,
+        "mug": true
+      },
+      "subtasks": [
+        {
+          "action": "pick_place",
+          "object": "fork",
+          "arm": "left",
+          "target": "plate_left"
+        },
+        {
+          "action": "pick_place",
+          "object": "spoon",
+          "arm": "right",
+          "target": "plate_right"
+        }
+      ]
+    },
+    "load_seconds": 2.0100715000007767,
+    "inference_seconds": 50.700378300010925
+  },
+  "validation_errors": [],
+  "fallback_used": false,
+  "accepted_plan": {
+    "scene": {
+      "plate": true,
+      "fork": true,
+      "spoon": true,
+      "mug": true
+    },
+    "subtasks": [
+      {
+        "action": "pick_place",
+        "object": "fork",
+        "arm": "left",
+        "target": "plate_left"
+      },
+      {
+        "action": "pick_place",
+        "object": "spoon",
+        "arm": "right",
+        "target": "plate_right"
+      }
+    ]
+  },
+  "score": {
+    "success": true,
+    "per_object": {
+      "fork": true,
+      "spoon": true
+    },
+    "errors": {
+      "fork": 0.0011699252046761216,
+      "spoon": 0.00464939749311749
+    },
+    "steps": 513,
+    "sim_time": 10.700000000000243
+  },
+  "total_seconds": 59.32804680001573,
+  "safety_note": "SmolVLM is proposal-only because its counterfactual grounding test failed. Schema, object-presence and arm-assignment gates run before execution."
+}

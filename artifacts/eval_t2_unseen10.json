@@ -1,0 +1,428 @@
+{
+  "episodes": 10,
+  "success_rate": 1.0,
+  "transfer_rate": 1.0,
+  "place_rate": 1.0,
+  "rows": [
+    {
+      "seed": 2000,
+      "task": "T2_handoff",
+      "success": true,
+      "transferred": true,
+      "placed_left": true,
+      "place_error": 0.004158242066083312,
+      "steps": 726,
+      "sim_time": 14.960000000001665,
+      "events": [
+        [
+          164,
+          "right",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "right",
+          "spoon",
+          "handoff_release"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "handoff_receive"
+        ],
+        [
+          647,
+          "left",
+          "spoon",
+          "release"
+        ]
+      ]
+    },
+    {
+      "seed": 2001,
+      "task": "T2_handoff",
+      "success": true,
+      "transferred": true,
+      "placed_left": true,
+      "place_error": 0.005206480503563418,
+      "steps": 726,
+      "sim_time": 14.960000000001665,
+      "events": [
+        [
+          164,
+          "right",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "right",
+          "spoon",
+          "handoff_release"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "handoff_receive"
+        ],
+        [
+          647,
+          "left",
+          "spoon",
+          "release"
+        ]
+      ]
+    },
+    {
+      "seed": 2002,
+      "task": "T2_handoff",
+      "success": true,
+      "transferred": true,
+      "placed_left": true,
+      "place_error": 0.004373660019613383,
+      "steps": 726,
+      "sim_time": 14.960000000001665,
+      "events": [
+        [
+          164,
+          "right",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "right",
+          "spoon",
+          "handoff_release"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "handoff_receive"
+        ],
+        [
+          647,
+          "left",
+          "spoon",
+          "release"
+        ]
+      ]
+    },
+    {
+      "seed": 2003,
+      "task": "T2_handoff",
+      "success": true,
+      "transferred": true,
+      "placed_left": true,
+      "place_error": 0.004964467447755952,
+      "steps": 726,
+      "sim_time": 14.960000000001665,
+      "events": [
+        [
+          164,
+          "right",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "right",
+          "spoon",
+          "handoff_release"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "handoff_receive"
+        ],
+        [
+          647,
+          "left",
+          "spoon",
+          "release"
+        ]
+      ]
+    },
+    {
+      "seed": 2004,
+      "task": "T2_handoff",
+      "success": true,
+      "transferred": true,
+      "placed_left": true,
+      "place_error": 0.004891809250925626,
+      "steps": 726,
+      "sim_time": 14.960000000001665,
+      "events": [
+        [
+          164,
+          "right",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "right",
+          "spoon",
+          "handoff_release"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "handoff_receive"
+        ],
+        [
+          647,
+          "left",
+          "spoon",
+          "release"
+        ]
+      ]
+    },
+    {
+      "seed": 2005,
+      "task": "T2_handoff",
+      "success": true,
+      "transferred": true,
+      "placed_left": true,
+      "place_error": 0.007415761633815858,
+      "steps": 726,
+      "sim_time": 14.960000000001665,
+      "events": [
+        [
+          164,
+          "right",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "right",
+          "spoon",
+          "handoff_release"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "handoff_receive"
+        ],
+        [
+          647,
+          "left",
+          "spoon",
+          "release"
+        ]
+      ]
+    },
+    {
+      "seed": 2006,
+      "task": "T2_handoff",
+      "success": true,
+      "transferred": true,
+      "placed_left": true,
+      "place_error": 0.004114307918981704,
+      "steps": 726,
+      "sim_time": 14.960000000001665,
+      "events": [
+        [
+          164,
+          "right",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "right",
+          "spoon",
+          "handoff_release"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "handoff_receive"
+        ],
+        [
+          647,
+          "left",
+          "spoon",
+          "release"
+        ]
+      ]
+    },
+    {
+      "seed": 2007,
+      "task": "T2_handoff",
+      "success": true,
+      "transferred": true,
+      "placed_left": true,
+      "place_error": 0.0067800201457547445,
+      "steps": 726,
+      "sim_time": 14.960000000001665,
+      "events": [
+        [
+          164,
+          "right",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "right",
+          "spoon",
+          "handoff_release"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "handoff_receive"
+        ],
+        [
+          647,
+          "left",
+          "spoon",
+          "release"
+        ]
+      ]
+    },
+    {
+      "seed": 2008,
+      "task": "T2_handoff",
+      "success": true,
+      "transferred": true,
+      "placed_left": true,
+      "place_error": 0.008343418737310579,
+      "steps": 726,
+      "sim_time": 14.960000000001665,
+      "events": [
+        [
+          164,
+          "right",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "right",
+          "spoon",
+          "handoff_release"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "handoff_receive"
+        ],
+        [
+          647,
+          "left",
+          "spoon",
+          "release"
+        ]
+      ]
+    },
+    {
+      "seed": 2009,
+      "task": "T2_handoff",
+      "success": true,
+      "transferred": true,
+      "placed_left": true,
+      "place_error": 0.004218429314164367,
+      "steps": 726,
+      "sim_time": 14.960000000001665,
+      "events": [
+        [
+          164,
+          "right",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "right",
+          "spoon",
+          "handoff_release"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "handoff_receive"
+        ],
+        [
+          647,
+          "left",
+          "spoon",
+          "release"
+        ]
+      ]
+    }
+  ]
+}

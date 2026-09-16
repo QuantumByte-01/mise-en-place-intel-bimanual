@@ -1,0 +1,21 @@
+{
+  "t2": {
+    "episodes": 1,
+    "success_rate": 1.0,
+    "collision_free_rate": 1.0,
+    "penetration_free_rate": 1.0,
+    "max_plate_displacement_m": 0.0067642824028079085,
+    "contact_pairs": {},
+    "rows": [
+      {
+        "seed": 42,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0067642824028079085,
+        "drops": [],
+        "contact_pairs": {}
+      }
+    ]
+  }
+}

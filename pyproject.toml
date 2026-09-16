@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mise-en-place"
+version = "0.1.0"
+description = "Intel AI Infra Summit — bimanual VLA dinner table (Mise en Place)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "mujoco>=3.1.0",
+  "numpy>=1.24",
+  "imageio>=2.31",
+  "Pillow>=10.0",
+]
+
+[project.optional-dependencies]
+learning = ["torch", "onnx"]
+intel = ["openvino", "nncf", "onnxruntime"]
+vlm = ["transformers", "accelerate", "num2words", "huggingface_hub"]
+all = [
+  "torch",
+  "onnx",
+  "openvino",
+  "nncf",
+  "onnxruntime",
+  "transformers",
+  "accelerate",
+  "num2words",
+  "huggingface_hub",
+  "imageio-ffmpeg",
+  "pyyaml",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mise_en_place*"]

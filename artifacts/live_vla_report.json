@@ -1,0 +1,21 @@
+{
+  "seed": 0,
+  "mode": "hybrid",
+  "runtime": "int8",
+  "device": "CPU",
+  "plan": null,
+  "score": {
+    "success": true,
+    "per_object": {
+      "fork": true,
+      "spoon": true
+    },
+    "errors": {
+      "fork": 0.0050070956851550495,
+      "spoon": 0.002337961713551645
+    },
+    "steps": 513,
+    "sim_time": 10.700000000000243
+  },
+  "final_image": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\live_vla_final.png"
+}

@@ -1,0 +1,462 @@
+{
+  "t2": {
+    "episodes": 50,
+    "success_rate": 1.0,
+    "collision_free_rate": 1.0,
+    "penetration_free_rate": 1.0,
+    "max_plate_displacement_m": 0.009175401924850213,
+    "contact_pairs": {},
+    "rows": [
+      {
+        "seed": 0,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.005212207761184311,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 1,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.004194695057161636,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 2,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.004510586720856737,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 3,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0025892077867109347,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 4,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.002750199666589796,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 5,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.003632147805605715,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 6,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 4.3453714262876895e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 7,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.004127015860397377,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 8,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 5.097111269380004e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 9,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.006432551500355746,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 10,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 5.1416753133071484e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 11,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.006819973874574798,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 12,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 5.848936733794992e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 13,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.007050358264504911,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 14,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0015293006095669643,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 15,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 3.817769668607649e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 16,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 6.223074305353464e-10,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 17,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 7.730998252161173e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 18,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 5.0017455743703716e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 19,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0068821407130101086,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 20,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 5.081026148911997e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 21,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0029483203361476435,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 22,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.009175401924850213,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 23,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0025396502626947324,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 24,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.004517336596177491,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 25,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0014576588341964553,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 26,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0015860822951750163,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 27,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.000576292204392731,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 28,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 1.8726821484508082e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 29,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 4.966192824941847e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 30,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0009357629449786659,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 31,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 3.550754464176675e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 32,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0033963374686961792,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 33,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 8.514965907174574e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 34,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.006789348878352222,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 35,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.00018076427202709294,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 36,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 5.399236429410913e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 37,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.004447990112603514,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 38,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 7.992608970816736e-10,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 39,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.007654358371649531,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 40,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.005975510763914148,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 41,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0003331944319591339,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 42,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0067642824028079085,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 43,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0006906740497678529,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 44,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0070356225928514884,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 45,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0069171513781484855,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 46,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0016055579144485272,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 47,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 1.5414151560286645e-08,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 48,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 0.0003379481096088796,
+        "drops": [],
+        "contact_pairs": {}
+      },
+      {
+        "seed": 49,
+        "success": true,
+        "inter_arm_contact_steps": 0,
+        "penetration_steps": 0,
+        "plate_displacement_m": 7.205254966995224e-09,
+        "drops": [],
+        "contact_pairs": {}
+      }
+    ]
+  }
+}

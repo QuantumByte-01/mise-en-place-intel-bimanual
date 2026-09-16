@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+.DS_Store
+.claude/
+claude_impl_log.txt
+scripts/_diag_*.py
+.idea/
+.vscode/
+.pytest_cache/
+kernel.errors.txt
+
+# Large generated data (regenerate with scripts/record_demos.py)
+artifacts/*.npz
+artifacts/training_data.npz
+
+# VLM weights (download with scripts/download_vlm.py)
+checkpoints/smolvlm2-256m/
+
+# Videos except the submission reel
+artifacts/**/*.mp4
+!artifacts/submission_demo.mp4
+
+# Keep submission evidence
+!artifacts/*.json
+!artifacts/*.csv
+!artifacts/*.pdf
+!artifacts/*_keyframes/
+!artifacts/demo_candidates/*_final.png
+!artifacts/demo_candidates/*_start.png
+!artifacts/demo_candidates/best_*.json
+!artifacts/vlm_grounding_images/

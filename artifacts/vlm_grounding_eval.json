@@ -1,0 +1,78 @@
+{
+  "model": "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+  "attribute_accuracy": 0.0,
+  "exact_scene_accuracy": 0.0,
+  "cases": [
+    {
+      "case": "all_visible",
+      "image": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\vlm_grounding_images\\all_visible.png",
+      "expected": {
+        "plate": true,
+        "fork": true,
+        "spoon": true,
+        "mug": true
+      },
+      "raw_output": "{\n    \"items\": {\n        \"plate\": {\n            \"name\": \"white plate\",\n            \"price\": 10,\n            \"quantity\": 2,\n            \"description\": \"A white plate with a fork and spoon on a table.\",\n            \"items_count\": 2,\n            \"items_per_item\": 2",
+      "parsed": null,
+      "correct": 0,
+      "inference_seconds": 41.150271599995904
+    },
+    {
+      "case": "without_plate",
+      "image": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\vlm_grounding_images\\without_plate.png",
+      "expected": {
+        "plate": false,
+        "fork": true,
+        "spoon": true,
+        "mug": true
+      },
+      "raw_output": "{\n    \"items\": {\n        \"plate\": {\n            \"name\": \"white plate\",\n            \"price\": 10\n        },\n        \"fork\": {\n            \"name\": \"metal fork\",\n            \"price\": 10\n        },\n        \"spoon\": {\n            \"name\": \"metal spoon\",\n            \"price\":",
+      "parsed": null,
+      "correct": 0,
+      "inference_seconds": 36.9113142999995
+    },
+    {
+      "case": "without_fork",
+      "image": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\vlm_grounding_images\\without_fork.png",
+      "expected": {
+        "plate": true,
+        "fork": false,
+        "spoon": true,
+        "mug": true
+      },
+      "raw_output": "{\n    \"items\": {\n        \"plate\": {\n            \"name\": \"white plate\",\n            \"price\": 10\n        },\n        \"fork\": {\n            \"name\": \"metal fork\",\n            \"price\": 10\n        },\n        \"spoon\": {\n            \"name\": \"metal spoon\",\n            \"price\":",
+      "parsed": null,
+      "correct": 0,
+      "inference_seconds": 35.12489510001615
+    },
+    {
+      "case": "without_spoon",
+      "image": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\vlm_grounding_images\\without_spoon.png",
+      "expected": {
+        "plate": true,
+        "fork": true,
+        "spoon": false,
+        "mug": true
+      },
+      "raw_output": "{\n  \"items\": {\n    \"plate\": {\n      \"name\": \"white plate\",\n      \"price\": 10.0,\n      \"quantity\": 2,\n      \"description\": \"A white plate with a fork and spoon on a table.\",\n      \"items_count\": 2,\n      \"items_per_item\":",
+      "parsed": null,
+      "correct": 0,
+      "inference_seconds": 34.75019880000036
+    },
+    {
+      "case": "without_mug",
+      "image": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\vlm_grounding_images\\without_mug.png",
+      "expected": {
+        "plate": true,
+        "fork": true,
+        "spoon": true,
+        "mug": false
+      },
+      "raw_output": "{\n  \"items\": {\n    \"plate\": {\n      \"name\": \"white plate\",\n      \"price\": 10.0,\n      \"quantity\": 1,\n      \"description\": \"A white plate with a fork and spoon on a table.\",\n      \"items_count\": 1,\n      \"items_per_item\":",
+      "parsed": null,
+      "correct": 0,
+      "inference_seconds": 34.80402109998977
+    }
+  ],
+  "decision": "keep behind deterministic fallback; grounding is not reliable enough"
+}

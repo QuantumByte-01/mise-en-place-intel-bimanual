@@ -1,0 +1,378 @@
+{
+  "task": "t2",
+  "best_seed": 0,
+  "best": {
+    "task": "t2",
+    "seed": 0,
+    "success": true,
+    "error_sum": 0.003337022991633544,
+    "frames": 244,
+    "fps": 24,
+    "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed0.mp4",
+    "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed0_start.png",
+    "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed0_final.png",
+    "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed0_mid.png",
+    "score": {
+      "task": "T2_handoff",
+      "success": true,
+      "transferred": true,
+      "placed_left": true,
+      "place_error": 0.003337022991633544,
+      "steps": 726,
+      "sim_time": 14.960000000001665,
+      "events": [
+        [
+          164,
+          "right",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "right",
+          "spoon",
+          "handoff_release"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "grasp"
+        ],
+        [
+          439,
+          "left",
+          "spoon",
+          "handoff_receive"
+        ],
+        [
+          647,
+          "left",
+          "spoon",
+          "release"
+        ]
+      ]
+    }
+  },
+  "all": [
+    {
+      "task": "t2",
+      "seed": 0,
+      "success": true,
+      "error_sum": 0.003337022991633544,
+      "frames": 244,
+      "fps": 24,
+      "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed0.mp4",
+      "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed0_start.png",
+      "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed0_final.png",
+      "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed0_mid.png",
+      "score": {
+        "task": "T2_handoff",
+        "success": true,
+        "transferred": true,
+        "placed_left": true,
+        "place_error": 0.003337022991633544,
+        "steps": 726,
+        "sim_time": 14.960000000001665,
+        "events": [
+          [
+            164,
+            "right",
+            "spoon",
+            "grasp"
+          ],
+          [
+            439,
+            "right",
+            "spoon",
+            "handoff_release"
+          ],
+          [
+            439,
+            "left",
+            "spoon",
+            "grasp"
+          ],
+          [
+            439,
+            "left",
+            "spoon",
+            "handoff_receive"
+          ],
+          [
+            647,
+            "left",
+            "spoon",
+            "release"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "t2",
+      "seed": 3,
+      "success": true,
+      "error_sum": 0.013987385980323667,
+      "frames": 244,
+      "fps": 24,
+      "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed3.mp4",
+      "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed3_start.png",
+      "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed3_final.png",
+      "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed3_mid.png",
+      "score": {
+        "task": "T2_handoff",
+        "success": true,
+        "transferred": true,
+        "placed_left": true,
+        "place_error": 0.013987385980323667,
+        "steps": 726,
+        "sim_time": 14.960000000001665,
+        "events": [
+          [
+            164,
+            "right",
+            "spoon",
+            "grasp"
+          ],
+          [
+            439,
+            "right",
+            "spoon",
+            "handoff_release"
+          ],
+          [
+            439,
+            "left",
+            "spoon",
+            "grasp"
+          ],
+          [
+            439,
+            "left",
+            "spoon",
+            "handoff_receive"
+          ],
+          [
+            647,
+            "left",
+            "spoon",
+            "release"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "t2",
+      "seed": 7,
+      "success": true,
+      "error_sum": 0.006599427725720798,
+      "frames": 244,
+      "fps": 24,
+      "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed7.mp4",
+      "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed7_start.png",
+      "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed7_final.png",
+      "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed7_mid.png",
+      "score": {
+        "task": "T2_handoff",
+        "success": true,
+        "transferred": true,
+        "placed_left": true,
+        "place_error": 0.006599427725720798,
+        "steps": 726,
+        "sim_time": 14.960000000001665,
+        "events": [
+          [
+            164,
+            "right",
+            "spoon",
+            "grasp"
+          ],
+          [
+            439,
+            "right",
+            "spoon",
+            "handoff_release"
+          ],
+          [
+            439,
+            "left",
+            "spoon",
+            "grasp"
+          ],
+          [
+            439,
+            "left",
+            "spoon",
+            "handoff_receive"
+          ],
+          [
+            647,
+            "left",
+            "spoon",
+            "release"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "t2",
+      "seed": 12,
+      "success": true,
+      "error_sum": 0.0036658843468877597,
+      "frames": 244,
+      "fps": 24,
+      "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed12.mp4",
+      "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed12_start.png",
+      "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed12_final.png",
+      "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed12_mid.png",
+      "score": {
+        "task": "T2_handoff",
+        "success": true,
+        "transferred": true,
+        "placed_left": true,
+        "place_error": 0.0036658843468877597,
+        "steps": 726,
+        "sim_time": 14.960000000001665,
+        "events": [
+          [
+            164,
+            "right",
+            "spoon",
+            "grasp"
+          ],
+          [
+            439,
+            "right",
+            "spoon",
+            "handoff_release"
+          ],
+          [
+            439,
+            "left",
+            "spoon",
+            "grasp"
+          ],
+          [
+            439,
+            "left",
+            "spoon",
+            "handoff_receive"
+          ],
+          [
+            647,
+            "left",
+            "spoon",
+            "release"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "t2",
+      "seed": 42,
+      "success": true,
+      "error_sum": 0.003941624475702824,
+      "frames": 244,
+      "fps": 24,
+      "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed42.mp4",
+      "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed42_start.png",
+      "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed42_final.png",
+      "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed42_mid.png",
+      "score": {
+        "task": "T2_handoff",
+        "success": true,
+        "transferred": true,
+        "placed_left": true,
+        "place_error": 0.003941624475702824,
+        "steps": 726,
+        "sim_time": 14.960000000001665,
+        "events": [
+          [
+            164,
+            "right",
+            "spoon",
+            "grasp"
+          ],
+          [
+            439,
+            "right",
+            "spoon",
+            "handoff_release"
+          ],
+          [
+            439,
+            "left",
+            "spoon",
+            "grasp"
+          ],
+          [
+            439,
+            "left",
+            "spoon",
+            "handoff_receive"
+          ],
+          [
+            647,
+            "left",
+            "spoon",
+            "release"
+          ]
+        ]
+      }
+    },
+    {
+      "task": "t2",
+      "seed": 100,
+      "success": true,
+      "error_sum": 0.004065199524814078,
+      "frames": 244,
+      "fps": 24,
+      "mp4": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed100.mp4",
+      "start_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed100_start.png",
+      "final_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed100_final.png",
+      "mid_png": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_candidates\\candidate_t2_seed100_mid.png",
+      "score": {
+        "task": "T2_handoff",
+        "success": true,
+        "transferred": true,
+        "placed_left": true,
+        "place_error": 0.004065199524814078,
+        "steps": 726,
+        "sim_time": 14.960000000001665,
+        "events": [
+          [
+            164,
+            "right",
+            "spoon",
+            "grasp"
+          ],
+          [
+            439,
+            "right",
+            "spoon",
+            "handoff_release"
+          ],
+          [
+            439,
+            "left",
+            "spoon",
+            "grasp"
+          ],
+          [
+            439,
+            "left",
+            "spoon",
+            "handoff_receive"
+          ],
+          [
+            647,
+            "left",
+            "spoon",
+            "release"
+          ]
+        ]
+      }
+    }
+  ],
+  "promoted_to": "C:\\Users\\Swastik R\\Documents\\Personal_Projects\\mise_en_place_intel_bimanual\\artifacts\\demo_t2_best.mp4"
+}

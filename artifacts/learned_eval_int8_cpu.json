@@ -1,0 +1,151 @@
+{
+  "runtime": "int8",
+  "device": "CPU",
+  "episodes": 10,
+  "success_rate": 0.0,
+  "fork_rate": 0.0,
+  "spoon_rate": 0.0,
+  "rows": [
+    {
+      "seed": 100,
+      "success": false,
+      "per_object": {
+        "fork": false,
+        "spoon": false
+      },
+      "errors": {
+        "fork": 0.10601755519271247,
+        "spoon": 0.11871602179576925
+      },
+      "steps": 700,
+      "sim_time": 14.440000000001492
+    },
+    {
+      "seed": 101,
+      "success": false,
+      "per_object": {
+        "fork": false,
+        "spoon": false
+      },
+      "errors": {
+        "fork": 0.10450145622376601,
+        "spoon": 0.15236185452827963
+      },
+      "steps": 700,
+      "sim_time": 14.440000000001492
+    },
+    {
+      "seed": 102,
+      "success": false,
+      "per_object": {
+        "fork": false,
+        "spoon": false
+      },
+      "errors": {
+        "fork": 0.14700296336123636,
+        "spoon": 0.08532798387424065
+      },
+      "steps": 700,
+      "sim_time": 14.440000000001492
+    },
+    {
+      "seed": 103,
+      "success": false,
+      "per_object": {
+        "fork": false,
+        "spoon": false
+      },
+      "errors": {
+        "fork": 0.10294224303690011,
+        "spoon": 0.10202355664839409
+      },
+      "steps": 700,
+      "sim_time": 14.440000000001492
+    },
+    {
+      "seed": 104,
+      "success": false,
+      "per_object": {
+        "fork": false,
+        "spoon": false
+      },
+      "errors": {
+        "fork": 0.15634347776861832,
+        "spoon": 0.10145119788024642
+      },
+      "steps": 700,
+      "sim_time": 14.440000000001492
+    },
+    {
+      "seed": 105,
+      "success": false,
+      "per_object": {
+        "fork": false,
+        "spoon": false
+      },
+      "errors": {
+        "fork": 0.1477739578587189,
+        "spoon": 0.13021350197637355
+      },
+      "steps": 700,
+      "sim_time": 14.440000000001492
+    },
+    {
+      "seed": 106,
+      "success": false,
+      "per_object": {
+        "fork": false,
+        "spoon": false
+      },
+      "errors": {
+        "fork": 0.1026323175538902,
+        "spoon": 0.1087638045049698
+      },
+      "steps": 700,
+      "sim_time": 14.440000000001492
+    },
+    {
+      "seed": 107,
+      "success": false,
+      "per_object": {
+        "fork": false,
+        "spoon": false
+      },
+      "errors": {
+        "fork": 0.13306400488756157,
+        "spoon": 0.1028715545175097
+      },
+      "steps": 700,
+      "sim_time": 14.440000000001492
+    },
+    {
+      "seed": 108,
+      "success": false,
+      "per_object": {
+        "fork": false,
+        "spoon": false
+      },
+      "errors": {
+        "fork": 0.1268556155364488,
+        "spoon": 0.1355664654438504
+      },
+      "steps": 700,
+      "sim_time": 14.440000000001492
+    },
+    {
+      "seed": 109,
+      "success": false,
+      "per_object": {
+        "fork": false,
+        "spoon": false
+      },
+      "errors": {
+        "fork": 0.10972999418336542,
+        "spoon": 0.14226977038293181
+      },
+      "steps": 700,
+      "sim_time": 14.440000000001492
+    }
+  ],
+  "warning": "Pure behavior cloning is evaluated without scripted rescue. The 10/10 scripted controller remains the deployment fallback."
+}
