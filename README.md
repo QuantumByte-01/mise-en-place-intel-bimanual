@@ -1,9 +1,15 @@
 # Mise en Place
 
+[![tests](https://github.com/QuantumByte-01/mise-en-place-intel-bimanual/actions/workflows/tests.yml/badge.svg)](https://github.com/QuantumByte-01/mise-en-place-intel-bimanual/actions/workflows/tests.yml)
+
 **LabLab AI Infra Summit — Intel track (online):** Bimanual VLA Manipulation with Multi-Modal Reasoning.
 
 Codename for a dual **SO-101** MuJoCo dinner-table stack: image + language
 planner → validated task graph → hybrid policy → OpenVINO → stress-tested execution.
+
+![Two SO-101 arms set a dinner table in MuJoCo: parallel fork and spoon placement, a spoon handoff, and the hybrid INT8 policy](artifacts/demo.gif)
+
+*From [`artifacts/submission_demo.mp4`](artifacts/submission_demo.mp4): T1 parallel placement, T2 right-to-left spoon handoff, and the hybrid geometric-guard + INT8 learned-residual policy.*
 
 ## Implemented
 
